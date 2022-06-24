@@ -14,6 +14,13 @@ Install nodemon</br>
 ```
 npm i --save-dev nodemon
 ```
+Change `package.json`
+```
+"scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+ ```
 
 Create db</br>
 ```
