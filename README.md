@@ -75,3 +75,20 @@ const connection = knex(environmentConfig)
 
 module.exports = connection
 ```
+
+[Option]Setup the seeds
+
+Create the start js
+```
+const express = require('express') //Express
+const app = express();
+
+
+//Server
+const PORT = 3000;
+app.listen(PORT, ()=>{
+    console.log(`Server is running on http://localhost:${PORT}`....)
+})
+
+```
+
