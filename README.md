@@ -58,7 +58,7 @@ development: {
  
  Run Migration
  ```
-knex:migrate:latest
+knex migrate:latest
  ```
  
  Setup Environment for database
