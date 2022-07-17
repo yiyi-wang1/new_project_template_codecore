@@ -4,7 +4,7 @@
 ### 1. setup the rails environment ###
 run the following to setup the database as pg and skip the test
 ```
-code ~/.railscr
+code ~/.railsrc
 ```
 Add the following
 ```
